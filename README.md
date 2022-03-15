@@ -1,9 +1,9 @@
-# README
-
 # Git Repo Finder
 
+A simple web app where you can display public repositories from GitHub based on search term provided.
 
-Deployed here:  https://gitrepofinder.herokuapp.com
+
+Deployed here:  https://tranquil-woodland-64055.herokuapp.com/
 
 * Ruby version ruby 2.7.2
 
@@ -15,6 +15,11 @@ Deployed here:  https://gitrepofinder.herokuapp.com
 
 
 * How to run the test suite
-	rspec spec
+	* rspec spec
 
 
+* How to setup
+	* bundle install
+	* rails assets:precompile
+	* rails db:create
+	* rails db:migrate
